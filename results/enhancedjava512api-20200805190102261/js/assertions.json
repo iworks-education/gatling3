@@ -1,0 +1,10 @@
+{
+  "simulation": "studydatalake.EnhancedJava512Api",
+  "simulationId": "enhancedjava512api",
+  "start": 1596654062261,
+  "description": "",
+  "scenarios": ["Scenario Name"],
+  "assertions": [
+
+  ]
+}

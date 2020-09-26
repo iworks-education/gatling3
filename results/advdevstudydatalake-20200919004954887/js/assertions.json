@@ -1,0 +1,10 @@
+{
+  "simulation": "studydatalake.AdvDevStudyDataLake",
+  "simulationId": "advdevstudydatalake",
+  "start": 1600476594887,
+  "description": "",
+  "scenarios": ["AdvDevStudyDataLake"],
+  "assertions": [
+
+  ]
+}

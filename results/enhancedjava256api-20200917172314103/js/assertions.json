@@ -1,0 +1,10 @@
+{
+  "simulation": "studydatalake.EnhancedJava256Api",
+  "simulationId": "enhancedjava256api",
+  "start": 1600363394103,
+  "description": "",
+  "scenarios": ["EnhancedJava256Api"],
+  "assertions": [
+
+  ]
+}
