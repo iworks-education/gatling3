@@ -1,0 +1,10 @@
+{
+  "simulation": "electionapp.ElectionSimulation",
+  "simulationId": "electionsimulation",
+  "start": 1625683312424,
+  "description": "",
+  "scenarios": ["Running a Election"],
+  "assertions": [
+
+  ]
+}

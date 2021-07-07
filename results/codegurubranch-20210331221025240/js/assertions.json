@@ -1,0 +1,10 @@
+{
+  "simulation": "studydatalake.CodeGuruBranch",
+  "simulationId": "codegurubranch",
+  "start": 1617228625240,
+  "description": "",
+  "scenarios": ["CodeGuruBranch"],
+  "assertions": [
+
+  ]
+}

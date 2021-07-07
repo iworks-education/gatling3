@@ -23,13 +23,13 @@ import scala.concurrent.duration._
 class AdvDevStudyDataLake extends Simulation {
 
   val httpProtocol = http
-    .baseUrl("https://aj2buewn9b.execute-api.us-west-2.amazonaws.com/prod") // Here is the root for all relative URLs
+    .baseUrl("https://4tmc5ucrwa.execute-api.us-west-2.amazonaws.com/prod") // Here is the root for all relative URLs
 
   val scn = scenario("AdvDevStudyDataLake")
     .exec(
       http("request_1")
-        .get("/study/DynamoDB/findByTag?tag=RCU")
+        .get("/study/awssam/findByTag?tag=cli")
     )
 
-  setUp(scn.inject(rampUsersPerSec(15) to(200) during(300 seconds)).protocols(httpProtocol))
+  setUp(scn.inject(rampUsersPerSec(5) to(200) during(600 seconds)).protocols(httpProtocol))
 }

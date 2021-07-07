@@ -1,0 +1,10 @@
+{
+  "simulation": "samapp.SamAppTest",
+  "simulationId": "samapptest",
+  "start": 1617217910764,
+  "description": "",
+  "scenarios": ["Regular Java API"],
+  "assertions": [
+
+  ]
+}
